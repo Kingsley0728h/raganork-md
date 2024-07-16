@@ -15,13 +15,13 @@
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
-            "required": false,
+            "required": true,
             "value":"jid,jid"
         },
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
             "required": true,
-            "value":"false"
+            "value":"true"
         },
         "READ_COMMAND": {
             "description": "Bot will read all commands (blue tick). Can be also false",
@@ -31,7 +31,7 @@
        "HEROKU_API_KEY": {
             "description": "For updating bot and setting vars remotely",
             "required": true,
-            "value":""
+            "value":"false"
         },
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
@@ -46,7 +46,7 @@
         "CHATBOT": {
             "description": "AI chatbot",
             "required": true,
-            "value":"off"
+            "value":"on"
         },
         "BOT_NAME": {
             "description": "Name of AI chatbot",
@@ -71,7 +71,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"24104552653"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
